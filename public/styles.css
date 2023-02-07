@@ -1,0 +1,49 @@
+body {
+  font: normal 14px/100% "Andale Mono", AndaleMono, monospace;
+  color: #fff;
+  padding: 50px;
+  width: 300px;
+  margin: 0 auto;
+  background-color: #000000;
+  text-align: center;
+}
+
+/* h1 {
+  font-size: 80px;
+  inline-size: auto;
+} */
+
+.container {
+  margin: 60% auto;
+}
+
+button {
+  display: none;
+  background-color: #6bbe92;
+  border: 0;
+  border-radius: 10px;
+  box-shadow: 5px;
+  margin: 10px;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.clock {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  color: #87cddd;
+  font-size: 60px;
+  font-family: Orbitron;
+  letter-spacing: 7px;
+}
+.background-red {
+  background-color: red;
+}
+
+.background-blue {
+  background-color: blue;
+}
